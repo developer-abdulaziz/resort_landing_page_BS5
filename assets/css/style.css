@@ -124,3 +124,16 @@ header {
     background: #FAFAFA;
     padding: 50px 0px;
 }
+
+@media (max-width: 600px){
+    .sponsored .row .col-12 {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .sponsored .row .col-12 img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+}
