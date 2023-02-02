@@ -99,19 +99,16 @@ header {
     color: var(--mainColor);
 }
 
-.hero_btn .btn1, .hero_btn .btn2 {
+.hero_btn .btn1, .hero_btn .btn2, .gallery_btn .btn1{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
     color: #FFFFFF;
-
     text-transform: uppercase;
     padding: 10px 30px;
     background: var(--mainColor);
-    /* box-shadow: 0px 100px 80px rgba(79, 112, 71, 0.1), 0px 64.8148px 46.8519px rgba(79, 112, 71, 0.0759259), 0px 38.5185px 25.4815px rgba(79, 112, 71, 0.0607407), 0px 20px 13px rgba(79, 112, 71, 0.05), 0px 8.14815px 6.51852px rgba(79, 112, 71, 0.0392593), 0px 1.85185px 3.14815px rgba(79, 112, 71, 0.0240741); */
     border-radius: 5px;
-    /* transform: rotate(-180deg); */
 }
 
 .hero_btn .btn2 {
@@ -126,12 +123,16 @@ header {
 
 
 /* --============================ gallery section start  ===========================-- */
+.gallery_part {
+    margin-bottom: 100px;
+}
 .top_heading h2 {
     font-style: normal;
     font-weight: 450;
     font-size: 50px;
     text-align: center;
     letter-spacing: -0.06em;
+    margin-bottom: 100px;
 }
 .blkColor {
     color: #313131;
@@ -176,6 +177,62 @@ header {
     /* box-sizing: border-box; */
 }
 /* --============================ gallery section end  ===========================-- */
+
+
+/* --============================ design section start  ===========================-- */
+.grnClr2 {
+    color: var(--mainColor);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -0.06em;
+    position: relative;
+}
+.grnClr2::after {
+    content: "";
+    width: 250px;
+    height: 2px;
+    position: absolute;
+    background-color: var(--mainColor);
+    left: 0;
+    bottom: 0;
+
+}
+
+ .design_card .card_title h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #313131;
+}
+.icon i {
+   color: #FFBA0A;
+   font-weight: bold;
+}
+.design_card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+}
+.design_card .card-text {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    color: #828282;
+}
+
+.design_icon img {
+    padding: 15px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.design_footer div img {
+    width: 24px;
+    height: 20px;
+   
+}
+/* --============================ design section end  ===========================-- */
 
 
 
