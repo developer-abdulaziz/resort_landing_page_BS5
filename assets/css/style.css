@@ -118,12 +118,38 @@ header {
     background: #2D2D2D;
 }
 /* --============================ hero section end  ===========================-- */
-
-
 .sponsored {
     background: #FAFAFA;
     padding: 50px 0px;
+    margin-bottom: 100px;
 }
+
+
+/* --============================ gallery section start  ===========================-- */
+.top_heading h2 {
+    font-style: normal;
+font-weight: 450;
+font-size: 50px;
+text-align: center;
+letter-spacing: -0.06em;
+}
+.blkColor {
+    color: #313131;
+    position: relative;
+}
+.blkColor::after {
+    content: "";
+    width: 125px;
+    height: 2px;
+    background-color: #2D2D2D;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+}
+/* --============================ gallery section end  ===========================-- */
+
+
 
 @media (max-width: 600px){
     .sponsored .row .col-12 {
