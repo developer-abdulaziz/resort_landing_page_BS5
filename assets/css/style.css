@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    /* color: white; */
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+html {
+    --mainColor: #62AC43;
+}
+img {
+    max-width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* @font-face {
+    font-family: myfont;
+    src: url(../circular-std-font-family/CircularStd-Black.woff2);
+} */
+/* body {
+    font-family: myfont;
+} */
+
+/* --============================ header section start  ===========================-- */
+
+header {
+    background-image: url(/assets/image/bg\ style.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    
+}
+
+.menubar ul li a {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+}
+.login {
+    display: flex;
+    gap: 30px;
+}
+.login a {
+    color: black;
+    padding: 6px 30px;
+    /* border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 40px; */
+    font-style: normal;
+    font-weight: 450;
+    font-size: 17px;
+
+}
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+.login a:hover {
+    /* background: rgb(219, 170, 65); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    border: none;
+    color: var(--mainColor);
+}
+/* --============================ header section end  ===========================-- */
+
+
+
+/* --============================ hero section start  ===========================-- */
+
+.hero_content h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    color: #313131;
+}
+.hero_content p {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    color: #828282;
+}
+.grnClr {
+    color: var(--mainColor);
+}
+
+.hero_btn .btn1, .hero_btn .btn2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: var(--mainColor);
+    /* box-shadow: 0px 100px 80px rgba(79, 112, 71, 0.1), 0px 64.8148px 46.8519px rgba(79, 112, 71, 0.0759259), 0px 38.5185px 25.4815px rgba(79, 112, 71, 0.0607407), 0px 20px 13px rgba(79, 112, 71, 0.05), 0px 8.14815px 6.51852px rgba(79, 112, 71, 0.0392593), 0px 1.85185px 3.14815px rgba(79, 112, 71, 0.0240741); */
+    border-radius: 5px;
+    /* transform: rotate(-180deg); */
+}
+
+.hero_btn .btn2 {
+    background: #2D2D2D;
+}
+/* --============================ hero section end  ===========================-- */
+
+
+.sponsored {
+    background: #FAFAFA;
+    padding: 50px 0px;
+}
